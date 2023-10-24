@@ -10,6 +10,8 @@ import cLang from "../../Assets/C_Logo.png";
 import TsImg from "../../Assets/Typescrip.png";
 import HTMLImg from "../../Assets/Html.png";
 import JsImg from "../../Assets/JS.png";
+import AWSImg from "../../Assets/AWS.png";
+import DockerImg from "../../Assets/Docker.png";
 
 import Pr from "../../Assets/Pr.png";
 import EF from "../../Assets/AfterEffect.png";
@@ -49,6 +51,8 @@ const Index = () => {
             <img src={cLang} alt='' />
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
+            <img src={AWSImg} alt='' />
+            <img src={DockerImg} alt='' />
           </div>
         </div>
         <div className='skillsDiv'>
