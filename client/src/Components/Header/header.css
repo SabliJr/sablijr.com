@@ -1,0 +1,56 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 13rem;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+  gap: 1rem;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.resume {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: transparent;
+  color: black;
+  background-color: #F8FFFE;
+  cursor: pointer;
+}
+
+.navLinksDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6D59F;
+  gap: 3rem;
+  padding: .6rem 1.2rem;
+  border-radius: 1.2rem;
+  z-index: 5;
+  position: fixed;
+  margin-bottom: 1.3rem;
+  bottom: 0;
+}
+
+.upBtn {
+  font-size: 2.42rem;
+  background-color: #F8FFFE;
+  padding: .5rem .5rem;
+  border-radius: .8rem;
+  font-weight: 700;
+  cursor: pointer;
+}

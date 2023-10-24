@@ -1,0 +1,73 @@
+.aboutSection {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  position: relative;
+}
+
+.videoEl {
+  width: 78.3%;
+  border-radius: 1.42rem;
+  height: 28.2rem;
+  border: transparent;
+}
+
+.aboutText {
+  font-size: 1.6rem;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  margin: 2rem auto;
+  width: 75%;
+  line-height: 1.4;
+  color: #003049;
+}
+
+.aboutText span {
+  font-family: 'Quintessential', serif;
+  font-weight: 600;
+}
+
+.skillsDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin: 3rem auto;
+}
+
+.skillsWrapper {
+  margin: 7rem auto;
+}
+
+.skillsTitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.6rem;
+  letter-spacing: 1.8px;
+  color: #FF9904;
+}
+
+.skillsLogos {
+  display: flex;
+  gap: 1.3rem;
+  flex-wrap: wrap;
+  margin: 1.3rem 0;
+}
+
+.skillsLogos img {
+  width: 5rem;
+  padding: .3rem .6rem;
+  border-radius: .6rem;
+  background-color: #f4f3ee;
+  aspect-ratio: 3/3;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+#Layer_2 {
+  width: 10rem;
+  position: absolute;
+  transform: rotate(-16deg);
+  bottom: -3rem;
+  height: auto;
+  right: 17rem;
+}

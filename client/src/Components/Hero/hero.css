@@ -1,0 +1,54 @@
+.heroSection {
+  margin: 5.42rem auto 2.42rem;
+  text-align: center;
+}
+
+.heroTitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5.42rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 80%;
+  margin: .3rem auto;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.heroTitle span {
+  font-family: 'Quintessential', serif;
+  line-height: .3;
+}
+
+#create {
+  text-align: center;
+}
+
+.titleDiv1 {
+  text-align: left;
+}
+
+.heroText {
+  width: 77%;
+  margin: 0rem auto;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: Inter, sans-serif;
+  color: #003049;
+}
+
+#Layer_1 {
+  width: 6rem;
+  margin: 1.6rem 0;
+  height: auto;
+  /* animation: 1s linear 2s infinite alternate upDown; */
+}
+
+@keyframes upDown {
+  from {
+    transform: translateY(.8rem);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
