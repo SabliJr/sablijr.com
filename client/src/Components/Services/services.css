@@ -2,6 +2,14 @@
   margin: 8rem auto;
   width: 90%;
   text-align: center;
+  position: relative;
+}
+
+#Layer_5 {
+  width: 5rem;
+  position: absolute;
+  left: 10%;
+  top: 0%;
 }
 
 .servicesSec h3 {

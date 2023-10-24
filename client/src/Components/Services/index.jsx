@@ -1,9 +1,12 @@
 import React from "react";
 import "./services.css";
 
+import SVGComponent from "./svgComp";
+
 const Index = () => {
   return (
     <section className='servicesSec'>
+      <SVGComponent />
       <h3>What I offer, my services.</h3>
       <p className='textServices'>
         At the moment I'm a full time student, I provide these services In

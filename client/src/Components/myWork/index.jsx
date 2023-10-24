@@ -18,7 +18,7 @@ const Index = () => {
       <Arrow />
       <h3 className='workTitle'>
         What I have done so far, <br />
-        <span>my work</span>.
+        my work.
       </h3>
       <article className='workShow'>
         <div className='workDiv'>

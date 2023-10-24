@@ -1,10 +1,15 @@
 import React from "react";
 import "./contact.css";
 
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
-import { FaSquareFacebook, FaSquareXTwitter } from "react-icons/fa6";
+import {
+  FaFacebookF,
+  FaSquareXTwitter,
+  FaYoutube,
+  FaLinkedinIn,
+} from "react-icons/fa6";
 
 const Index = () => {
   const date = new Date().getFullYear();
@@ -19,9 +24,6 @@ const Index = () => {
       <div className='SMDiv'>
         <h6>Let's connect.</h6>
         <div className='linkIcons'>
-          <a target='#blank' href='https://www.linkedin.com/in/sablijr/'>
-            <BsLinkedin className='SMIcons' />
-          </a>
           <a target='#blank' href='https://twitter.com/SabLiJr'>
             <FaSquareXTwitter className='SMIcons' />
           </a>
@@ -31,11 +33,17 @@ const Index = () => {
           <a target='#blank' href='https://www.instagram.com/sabli.jr/'>
             <PiInstagramLogoFill className='SMIcons' />
           </a>
+          <a target='#blank' href='https://www.facebook.com/sablijr/'>
+            <FaYoutube className='SMIcons' />
+          </a>
+          <a target='#blank' href='https://www.linkedin.com/in/sablijr/'>
+            <FaLinkedinIn className='SMIcons' />
+          </a>
           <a target='#blank' href='https://www.tiktok.com/@sablijr'>
             <FaTiktok className='SMIcons' />
           </a>
           <a target='#blank' href='https://www.facebook.com/sablijr/'>
-            <FaSquareFacebook className='SMIcons' />
+            <FaFacebookF className='SMIcons' />
           </a>
         </div>
       </div>
