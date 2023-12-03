@@ -6,7 +6,8 @@ import NodeImg from "../../Assets/NodeImg.png";
 import PostgreSql from "../../Assets/PostgresSQL.png";
 import GitImg from "../../Assets/Git.png";
 import CssImg from "../../Assets/CssImg.png";
-import cLang from "../../Assets/C_Logo.png";
+// import cLang from "../../Assets/C_Logo.png";
+import Python from "../../Assets/Python.png";
 import TsImg from "../../Assets/Typescrip.png";
 import HTMLImg from "../../Assets/Html.png";
 import JsImg from "../../Assets/JS.png";
@@ -48,7 +49,7 @@ const Index = () => {
             <img src={PostgreSql} alt='' />
             <img src={Express} alt='' />
             <img src={NodeImg} alt='' />
-            <img src={cLang} alt='' />
+            <img src={Python} alt='' />
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
             <img src={AWSImg} alt='' />
