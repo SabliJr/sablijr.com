@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-import Arrow from "./Arrow";
+import NewArrow from "./svgComp";
 
 import LinksImg1 from "../../Assets/Screen-Shot-2021-04-14-at-8.38.21-AM.webp";
 import LinksImg2 from "../../Assets/link-in-bio-page-features.png";
@@ -15,9 +15,9 @@ import VideoSharing2 from "../../Assets/3367fad11f08c28ed6c75184665cd570.jpg";
 const Index = () => {
   return (
     <section className='workSection'>
-      <Arrow />
+      <NewArrow />
       <h3 className='workTitle'>
-        What I have done so far, <br />
+        <span>What I have done so far</span>, <br />
         my work.
       </h3>
       <article className='workShow'>

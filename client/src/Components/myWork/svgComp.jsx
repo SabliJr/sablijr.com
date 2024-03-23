@@ -1,9 +1,8 @@
 import * as React from "react";
-import "./services.css";
 
 const SVGComponent = (props) => (
   <svg
-    id='Layer_5'
+    id='Layer_3'
     data-name='Layer 1'
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 57.46 88.86'

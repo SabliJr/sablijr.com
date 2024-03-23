@@ -6,13 +6,11 @@ import NodeImg from "../../Assets/NodeImg.png";
 import PostgreSql from "../../Assets/PostgresSQL.png";
 import GitImg from "../../Assets/Git.png";
 import CssImg from "../../Assets/CssImg.png";
-// import cLang from "../../Assets/C_Logo.png";
-import Python from "../../Assets/Python.png";
+import cLang from "../../Assets/C_Logo.png";
 import TsImg from "../../Assets/Typescrip.png";
 import HTMLImg from "../../Assets/Html.png";
 import JsImg from "../../Assets/JS.png";
 import AWSImg from "../../Assets/AWS.png";
-import DockerImg from "../../Assets/Docker.png";
 
 import Pr from "../../Assets/Pr.png";
 import EF from "../../Assets/AfterEffect.png";
@@ -33,10 +31,10 @@ const Index = () => {
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         allowfullscreen></iframe>
       <p className='aboutText'>
-        Hi there, I'm Sabli Junior, a <span>software engineering</span> student
-        at <span>42 Paris </span> and a <span>content creator</span>. This video
-        is a little bit about me if you've got a minute. It is literally{" "}
-        <span>one minute</span> long. 😁
+        Hi there, I'm Sabli Junior, a <span>software engineering</span> &
+        student at <span>42Paris </span> and a <span>content creator</span>.
+        This video is a little bit about me if you've got a minute. It is
+        literally <span>one minute</span> long. 😁
       </p>
       <div className='skillsWrapper'>
         <div className='skillsDiv'>
@@ -49,21 +47,22 @@ const Index = () => {
             <img src={PostgreSql} alt='' />
             <img src={Express} alt='' />
             <img src={NodeImg} alt='' />
-            <img src={Python} alt='' />
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
             <img src={AWSImg} alt='' />
-            <img src={DockerImg} alt='' />
           </div>
         </div>
         <div className='skillsDiv'>
-          <h3 className='skillsTitle'>Things I play around with:</h3>
+          <h3 className='skillsTitle'>
+            Things I <span>play</span> around with:
+          </h3>
           <div className='skillsLogos'>
             <img src={Vim} alt='' />
+            <img src={cLang} alt='' />
+            <img src={Linux} alt='' />
             <img src={Photoshop} alt='' />
             <img src={Pr} alt='' />
             <img src={EF} alt='' />
-            <img src={Linux} alt='' />
           </div>
         </div>
       </div>

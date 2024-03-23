@@ -10,10 +10,15 @@
   letter-spacing: 1.8px;
 }
 
+.workTitle span {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+}
+
 #Layer_3 {
   position: absolute;
-  width: 1.8rem;
-  left: 36.8%;
+  width: 3.8rem;
+  left: 30.8%;
   top: 8rem;
 }
 

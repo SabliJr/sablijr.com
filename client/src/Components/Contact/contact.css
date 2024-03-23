@@ -10,6 +10,11 @@
   letter-spacing: 1.6px;
 }
 
+.contact h3 span {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+}
+
 .contactText {
   font-size: 1.42rem;
   font-family: Inter, sans-serif;
@@ -33,9 +38,10 @@
 }
 
 .SMDiv h6 {
-  font-size: 1.42rem;
+  font-size: 1.62rem;
   margin: 1rem 0;
-  font-family: 'Quintessential', serif;
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
   color: #288990;
 }
 

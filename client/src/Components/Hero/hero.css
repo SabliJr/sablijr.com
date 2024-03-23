@@ -1,5 +1,5 @@
 .heroSection {
-  margin: 5.42rem auto 2.42rem;
+  margin: 3.42rem auto 2.42rem;
   text-align: center;
 }
 
@@ -15,12 +15,8 @@
 }
 
 .heroTitle span {
-  font-family: 'Quintessential', serif;
-  line-height: .3;
-}
-
-#create {
-  text-align: center;
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
 }
 
 .titleDiv1 {
@@ -29,7 +25,7 @@
 
 .heroText {
   width: 77%;
-  margin: 0rem auto;
+  margin: 1rem auto;
   font-size: 1.8rem;
   line-height: 1.4;
   font-family: Inter, sans-serif;
@@ -40,7 +36,6 @@
   width: 6rem;
   margin: 1.6rem 0;
   height: auto;
-  /* animation: 1s linear 2s infinite alternate upDown; */
 }
 
 @keyframes upDown {

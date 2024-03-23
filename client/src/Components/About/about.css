@@ -23,8 +23,10 @@
 }
 
 .aboutText span {
-  font-family: 'Quintessential', serif;
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
   font-weight: 600;
+  font-size: 1.8rem;
 }
 
 .skillsDiv {
@@ -33,6 +35,12 @@
   flex-direction: column;
   text-align: left;
   margin: 3rem auto;
+}
+
+.skillsTitle span {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .skillsWrapper {
@@ -64,10 +72,10 @@
 }
 
 #Layer_2 {
-  width: 10rem;
+  width: 6.8rem;
   position: absolute;
   transform: rotate(-16deg);
-  bottom: -3rem;
+  bottom: -2rem;
   height: auto;
   right: 17rem;
 }

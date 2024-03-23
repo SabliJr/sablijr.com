@@ -4,19 +4,16 @@ import "./contact.css";
 import { BsGithub } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
-import {
-  FaFacebookF,
-  FaSquareXTwitter,
-  FaYoutube,
-  FaLinkedinIn,
-} from "react-icons/fa6";
+import { FaSquareXTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
 
 const Index = () => {
   const date = new Date().getFullYear();
 
   return (
     <section className='contact'>
-      <h3>Contact Me.</h3>
+      <h3>
+        Contact <span>Me</span>.
+      </h3>
       <p className='contactText'>
         Interested in discussing a potential project or want to find out more.
         Shoot me an email at <span>info.sablijr@gmail.com</span>.
@@ -33,7 +30,7 @@ const Index = () => {
           <a target='#blank' href='https://www.instagram.com/sabli.jr/'>
             <PiInstagramLogoFill className='SMIcons' />
           </a>
-          <a target='#blank' href='https://www.facebook.com/sablijr/'>
+          <a target='#blank' href='https://www.youtube.com/@_sabli'>
             <FaYoutube className='SMIcons' />
           </a>
           <a target='#blank' href='https://www.linkedin.com/in/sablijr/'>
@@ -41,9 +38,6 @@ const Index = () => {
           </a>
           <a target='#blank' href='https://www.tiktok.com/@sablijr'>
             <FaTiktok className='SMIcons' />
-          </a>
-          <a target='#blank' href='https://www.facebook.com/sablijr/'>
-            <FaFacebookF className='SMIcons' />
           </a>
         </div>
       </div>

@@ -13,10 +13,8 @@ const Header = () => {
         <nav className='navLinks'>
           <li>About</li>
           <li>Work</li>
-          <li>Services</li>
-          <li>Contact</li>
         </nav>
-        <button className='resume'>Résume</button>
+        <button className='resume'>Contact</button>
       </div>
     </header>
   );

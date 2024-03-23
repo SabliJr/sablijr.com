@@ -8,13 +8,10 @@ const Index = () => {
     <section className='heroSection'>
       <h2 className='heroTitle'>
         <div className='titleDiv1'>
-          Software<span> engineer</span>
+          Software<span> engineer</span> with
         </div>
-        with a love for content <br />
-        <div id='create'>
-          {" "}
-          <span>creation</span>.
-        </div>
+        a love for content
+        <span> creation</span>.{/* </div> */}
       </h2>
       <p className='heroText'>
         I'm not just a builder; I'm a digital architect, crafting mesmerizing
