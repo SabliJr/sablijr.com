@@ -21,7 +21,7 @@ const Index = () => {
         my work.
       </h3>
       <article className='workShow'>
-        <div className='workDiv'>
+        {/* <div className='workDiv'>
           <h4>Link in bio & wish list app.</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -33,8 +33,8 @@ const Index = () => {
             <img src={LinksImg1} alt='' className='linkImg1' />
             <img src={LinksImg2} alt='' className='linkImg2' />
           </div>
-        </div>
-        <div className='workDiv'>
+        </div> */}
+        {/* <div className='workDiv'>
           <h4>Content Creators platform.</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -46,8 +46,8 @@ const Index = () => {
             <img src={VideoSharing1} alt='' className='linkImg1' />
             <img src={VideoSharing2} alt='' className='linkImg3' />
           </div>
-        </div>
-        <div className='workDiv'>
+        </div> */}
+        {/* <div className='workDiv'>
           <h4>Crypto prices app.</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -59,8 +59,8 @@ const Index = () => {
             <img src={cryptoApp1} alt='' className='linkImg1' />
             <img src={cryptoApp2} alt='' className='linkImg3' />
           </div>
-        </div>
-        <div className='workDiv'>
+        </div> */}
+        {/* <div className='workDiv'>
           <h4>Job board software.</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -72,7 +72,7 @@ const Index = () => {
             <img src={JobBoard} alt='' className='linkImg1' />
             <img src={JobBoard2} alt='' className='linkImg3' />
           </div>
-        </div>
+        </div> */}
       </article>
     </section>
   );
