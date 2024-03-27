@@ -1,14 +1,14 @@
 .aboutSection {
-  width: 80%;
+  width: 95%;
   margin: 1rem auto;
   text-align: center;
   position: relative;
 }
 
 .videoEl {
-  width: 78.3%;
+  width: 70%;
   border-radius: 1.42rem;
-  height: 28.2rem;
+  height: 30rem;
   border: transparent;
 }
 
@@ -45,13 +45,16 @@
 
 .skillsWrapper {
   margin: 7rem auto;
+  background-color: #6238aa;
+  padding: 1.5rem 3rem;
+  border-radius: 1.8rem;
 }
 
 .skillsTitle {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.6rem;
   letter-spacing: 1.8px;
-  color: #FF9904;
+  color: #f5b950;
 }
 
 .skillsLogos {
@@ -71,11 +74,11 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
-#Layer_2 {
+/* #Layer_2 {
   width: 6.8rem;
   position: absolute;
   transform: rotate(-16deg);
   bottom: -2rem;
   height: auto;
   right: 17rem;
-}
+} */

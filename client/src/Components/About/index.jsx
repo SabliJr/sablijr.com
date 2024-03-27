@@ -18,7 +18,7 @@ import Linux from "../../Assets/Linux.png";
 import Photoshop from "../../Assets/Photoshop.png";
 import Vim from "../../Assets/Vim.png";
 import Express from "../../Assets/Express.png";
-import SvgSec from "./svgSec";
+// import SvgSec from "./svgSec";
 
 const Index = () => {
   return (
@@ -66,7 +66,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <SvgSec />
+      {/* <SvgSec /> */}
     </section>
   );
 };
