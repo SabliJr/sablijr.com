@@ -44,9 +44,9 @@
 }
 
 .skillsWrapper {
-  margin: 7rem auto;
-  background-color: #6238aa;
-  padding: 1.5rem 3rem;
+  margin: 5rem auto;
+  background-color: #532c95;
+  padding: .8rem 2.5rem;
   border-radius: 1.8rem;
 }
 
@@ -54,7 +54,7 @@
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.6rem;
   letter-spacing: 1.8px;
-  color: #f5b950;
+  color: #e67f22;
 }
 
 .skillsLogos {
