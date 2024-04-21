@@ -1,5 +1,5 @@
 .workSection {
-  margin: 10rem auto;
+  margin: 10rem auto 0;
   text-align: center;
   position: relative;
 }
@@ -8,7 +8,7 @@
   font-family: 'Bebas Neue', sans-serif;
   font-size: 4.42rem;
   letter-spacing: 1.8px;
-  color: #e67f22;
+  color: #fb9f3b;
 }
 
 .workTitle span {
@@ -33,34 +33,14 @@
 
 .workShow .workDiv {
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: 2rem auto;
 }
 
-.workDiv h4 {
-  font-size: 2.6rem;
-  font-family: Inter, sans-serif;
-  text-align: left;
-  width: 80%;
-  margin: auto;
-  font-weight: 800;
-}
-
-.workDiv p {
-  font-family: Inter, sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.3;
-  text-align: left;
-  margin: 1rem auto 2rem;
-  width: 80%;
-}
-
-.workDiv p span {
-  font-family: 'Quintessential', serif;
-  font-weight: 600;
-  cursor: pointer;
-  color: #FF9904;
-  border-bottom: 2px solid #FF9904;
+.workDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .linkImg1 {
@@ -88,4 +68,36 @@
   bottom: 0%;
   border-radius: 1rem;
   border: 1px solid darkgray;
+}
+
+.img_div1 {
+  width: 55%;
+  border-radius: 1rem;
+  border-radius: 1rem;
+}
+
+.img_div2 {
+  width: 42%;
+  border-radius: 1rem;
+  background-color: #d3ece0;
+}
+
+.img_div3 {
+  width: 100%;
+  height: 32rem;
+  border-radius: 1rem;
+  background-color: #f9f2ef;
+}
+
+._branding p {
+  border-radius: .6rem;
+  padding: .4rem;
+}
+
+._wishties,
+.img_div2_inner,
+.img_div3_inner,
+.img_div4_inner {
+  width: 100%;
+  border-radius: 1rem;
 }

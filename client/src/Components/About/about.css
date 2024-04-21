@@ -23,10 +23,7 @@
 }
 
 .aboutText span {
-  font-family: "Instrument Serif", serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .skillsDiv {
@@ -45,7 +42,7 @@
 
 .skillsWrapper {
   margin: 5rem auto;
-  background-color: #532c95;
+  background-color: #383838;
   padding: .8rem 2.5rem;
   border-radius: 1.8rem;
 }
@@ -54,7 +51,7 @@
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.6rem;
   letter-spacing: 1.8px;
-  color: #e67f22;
+  color: #fb9f3b;
 }
 
 .skillsLogos {
@@ -68,17 +65,8 @@
   width: 4.8rem;
   padding: .3rem .6rem;
   border-radius: .6rem;
-  background-color: #f4f3ee;
+  background-color: #f7f7f7;
   aspect-ratio: 3/3;
   object-fit: contain;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
-
-/* #Layer_2 {
-  width: 6.8rem;
-  position: absolute;
-  transform: rotate(-16deg);
-  bottom: -2rem;
-  height: auto;
-  right: 17rem;
-} */

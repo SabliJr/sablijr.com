@@ -12,7 +12,7 @@
   margin: .3rem auto;
   text-align: right;
   line-height: 1.2;
-  color: #e67f22;
+  color: #fb9f3b;
 }
 
 .heroTitle span {
@@ -30,7 +30,8 @@
   font-size: 1.8rem;
   line-height: 1.4;
   font-family: Inter, sans-serif;
-  color: #003049;
+  color: #1d3a58;
+  font-weight: 500;
 }
 
 #Layer_1 {

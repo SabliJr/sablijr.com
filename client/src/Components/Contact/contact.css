@@ -1,5 +1,5 @@
 .contact {
-  margin: 5rem auto 6.42rem;
+  margin: 1rem auto 6.42rem;
   width: 70%;
   text-align: center;
 }
@@ -40,6 +40,7 @@
 .SMDiv h6 {
   font-size: 1.62rem;
   margin: 1rem 0;
+  /* margin-bottom: 1rem; */
   font-family: "Instrument Serif", serif;
   font-style: italic;
   color: #288990;

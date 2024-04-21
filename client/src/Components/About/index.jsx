@@ -11,6 +11,7 @@ import TsImg from "../../Assets/Typescrip.png";
 import HTMLImg from "../../Assets/Html.png";
 import JsImg from "../../Assets/JS.png";
 import AWSImg from "../../Assets/AWS.png";
+import Python from "../../Assets/Python.png";
 
 import Pr from "../../Assets/Pr.png";
 import EF from "../../Assets/AfterEffect.png";
@@ -18,7 +19,6 @@ import Linux from "../../Assets/Linux.png";
 import Photoshop from "../../Assets/Photoshop.png";
 import Vim from "../../Assets/Vim.png";
 import Express from "../../Assets/Express.png";
-// import SvgSec from "./svgSec";
 
 const Index = () => {
   return (
@@ -49,6 +49,7 @@ const Index = () => {
             <img src={NodeImg} alt='' />
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
+            <img src={Python} alt='' />
             <img src={AWSImg} alt='' />
           </div>
         </div>
