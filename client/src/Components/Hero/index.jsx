@@ -15,7 +15,7 @@ const Index = () => {
       </h2>
       <p className='heroText'>
         I'm not just a builder; I'm a digital architect, crafting mesmerizing
-        content to elevate your brand's online presence.
+        content to elevate my brand's online presence.
       </p>
       <SVGComponent />
     </section>

@@ -34,7 +34,7 @@ const Index = () => {
         Hi there, I'm Sabli Junior, a <span>software engineering</span> &
         student at <span>42Paris </span> and a <span>content creator</span>.
         This video is a little bit about me if you've got a minute. It is
-        literally <span>one minute</span> long. 😁
+        literally <span>one minute</span> long 😁
       </p>
       <div className='skillsWrapper'>
         <div className='skillsDiv'>
@@ -49,8 +49,8 @@ const Index = () => {
             <img src={NodeImg} alt='' />
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
-            <img src={Python} alt='' />
             <img src={AWSImg} alt='' />
+            <img src={Python} alt='' />
           </div>
         </div>
         <div className='skillsDiv'>
