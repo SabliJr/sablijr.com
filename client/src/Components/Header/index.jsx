@@ -3,6 +3,7 @@ import "./header.css";
 
 import Logo from "../../Assets/Logo.png";
 import { ImArrowUp2 } from "react-icons/im";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   return (
@@ -11,8 +12,8 @@ const Header = () => {
       <div className='navLinksDiv'>
         <ImArrowUp2 className='upBtn' />
         <nav className='navLinks'>
-          <li>About</li>
-          <li>Work</li>
+          <ScrollLink>About</ScrollLink>
+          <ScrollLink>Work</ScrollLink>
         </nav>
         <button className='resume'>Contact</button>
       </div>

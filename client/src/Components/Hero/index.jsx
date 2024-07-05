@@ -14,7 +14,7 @@ const Index = () => {
         <span> creation</span>.{/* </div> */}
       </h2>
       <p className='heroText'>
-        I'm not just a builder; I'm a digital architect, crafting mesmerizing
+        I'm not just a builder I'm a digital architect, crafting mesmerizing
         content to elevate my brand's online presence.
       </p>
       <SVGComponent />
