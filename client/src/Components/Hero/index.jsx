@@ -11,7 +11,7 @@ const Index = () => {
           Software<span> engineer</span> with
         </div>
         a love for content
-        <span> creation</span>.{/* </div> */}
+        <span> creation</span>.
       </h2>
       <p className='heroText'>
         I'm not just a builder I'm a digital architect, crafting mesmerizing

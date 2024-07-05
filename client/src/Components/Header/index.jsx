@@ -10,12 +10,41 @@ const Header = () => {
     <header className='Header'>
       <img src={Logo} alt='' className='logo' />
       <div className='navLinksDiv'>
-        <ImArrowUp2 className='upBtn' />
+        <ScrollLink
+          to='Header'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}>
+          <ImArrowUp2 className='upBtn' />
+        </ScrollLink>
         <nav className='navLinks'>
-          <ScrollLink>About</ScrollLink>
-          <ScrollLink>Work</ScrollLink>
+          <ScrollLink
+            to='aboutSection'
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}>
+            About
+          </ScrollLink>
+          <ScrollLink
+            to='workSection'
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}>
+            Work
+          </ScrollLink>
         </nav>
-        <button className='resume'>Contact</button>
+        <ScrollLink
+          className='resume'
+          to='contact'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}>
+          Contact
+        </ScrollLink>
       </div>
     </header>
   );
