@@ -73,3 +73,50 @@
 .sponsor_wave_img {
   height: 28rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
+      .workTitle {
+        font-size: 3rem;
+        width: 90%;
+        margin: .5rem auto;
+      }
+
+      .workTitle span {
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-size: 2rem;
+        color: black;
+      }
+
+      .workSection {
+        margin: 7rem auto 0;
+      }
+
+      #Layer_3 {
+        width: 2.6rem;
+        left: 18%;
+        top: 6.8rem;
+      }
+
+      .img_div1 {
+        grid-column: 1/6;
+      }
+
+      .img_div2 {
+        grid-column: 1/6;
+      }
+
+      .img_div3 {
+        grid-column: 1/6;
+        order: 4;
+      }
+
+      .img_div4 {
+        grid-column: 1/6;
+      }
+    }
+  }
+}

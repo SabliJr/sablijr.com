@@ -9,7 +9,7 @@ const Index = () => {
       <h2 className='heroTitle'>
         <div className='titleDiv1'>
           Software<span> engineer</span> with
-        </div>
+        </div>{" "}
         a love for content
         <span> creation</span>.
       </h2>

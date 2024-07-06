@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./work.css";
 
 import NewArrow from "./svgComp";
 import Wishties from "../../Assets/_wishties.jpg";

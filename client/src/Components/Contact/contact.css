@@ -23,7 +23,6 @@
 
 .contactText span {
   font-style: italic;
-  font-size: 1.2rem;
   color: #e67f22;
 }
 
@@ -57,4 +56,23 @@
   font-family: Inter, sans-serif;
   font-weight: 400;
   margin: .8rem 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
+      .contact {
+        width: 90%;
+      }
+
+      .contact h3 {
+        font-size: 2.42rem;
+      }
+
+      .contactText {
+        font-size: 1rem;
+      }
+    }
+  }
 }
