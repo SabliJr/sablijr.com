@@ -10,7 +10,7 @@ const Index = () => {
     <section className='workSection'>
       <NewArrow />
       <h3 className='workTitle'>
-        <span>What I have done so far</span>, <br />
+        <span>What I have done so far,</span> <br />
         my work.
       </h3>
       <div className='workDiv'>

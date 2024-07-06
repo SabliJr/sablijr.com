@@ -11,7 +11,6 @@ import TsImg from "../../Assets/Typescrip.png";
 import HTMLImg from "../../Assets/Html.png";
 import JsImg from "../../Assets/JS.png";
 import AWSImg from "../../Assets/AWS.png";
-import Docker from "../../Assets/Docker.png";
 
 import Pr from "../../Assets/Pr.png";
 import EF from "../../Assets/AfterEffect.png";
@@ -23,13 +22,15 @@ import Express from "../../Assets/Express.png";
 const Index = () => {
   return (
     <section className='aboutSection'>
-      <iframe
-        className='videoEl'
-        src='https://www.youtube-nocookie.com/embed/YHDUbLT4nkk?si=hRpf7C730_Kyyh3W'
-        title='YouTube video player'
-        frameborder='0'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-        allowfullscreen></iframe>
+      <div className='videoWrapper'>
+        <iframe
+          className='videoEl'
+          src='https://www.youtube-nocookie.com/embed/YHDUbLT4nkk?si=hRpf7C730_Kyyh3W'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowfullscreen></iframe>
+      </div>
       <p className='aboutText'>
         Hi there, I'm Sabli Junior, a <span>software engineering</span>, student
         at <span>42Paris </span> and a <span>content creator</span>. This video
@@ -50,7 +51,6 @@ const Index = () => {
             <img src={GitImg} alt='' />
             <img src={TsImg} alt='' />
             <img src={AWSImg} alt='' />
-            <img src={Docker} alt='' />
           </div>
         </div>
         <div className='skillsDiv'>

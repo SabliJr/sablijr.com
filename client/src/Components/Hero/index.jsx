@@ -7,11 +7,8 @@ const Index = () => {
   return (
     <section className='heroSection'>
       <h2 className='heroTitle'>
-        <div className='titleDiv1'>
-          Software<span> engineer</span> with
-        </div>{" "}
-        a love for content
-        <span> creation</span>.
+        <div className='titleDiv1'>Software engineer with</div> a love for
+        content creation.
       </h2>
       <p className='heroText'>
         I'm not just a builder I'm a digital architect, crafting mesmerizing

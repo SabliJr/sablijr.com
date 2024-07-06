@@ -5,14 +5,8 @@
 }
 
 .contact h3 {
-  font-size: 3.6rem;
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.6px;
-}
-
-.contact h3 span {
-  font-family: 'Instrument Serif', serif;
-  font-style: italic;
+  font-size: 4.5rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .contactText {
@@ -37,9 +31,9 @@
 }
 
 .SMDiv h6 {
-  font-size: 1.62rem;
+  font-size: 2.62rem;
   margin: 1rem 0;
-  font-family: "Instrument Serif", serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-style: italic;
   color: #288990;
 }
@@ -60,7 +54,15 @@
 
 
 @media screen and (max-width: 1024px) {
+  .contact h3 {
+    font-size: 3.42rem;
+  }
+
   @media screen and (max-width: 800px) {
+    .SMDiv h6 {
+      font-size: 2rem;
+    }
+
     @media screen and (max-width: 600px) {
       .contact {
         width: 90%;
@@ -72,6 +74,10 @@
 
       .contactText {
         font-size: 1rem;
+      }
+
+      .SMDiv h6 {
+        font-size: 1.5rem;
       }
     }
   }

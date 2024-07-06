@@ -9,9 +9,7 @@ const Index = () => {
 
   return (
     <section className='contact'>
-      <h3>
-        Contact <span>Me</span>.
-      </h3>
+      <h3>Contact Me.</h3>
       <p className='contactText'>
         Interested in discussing a potential project or want to find out more.
         Shoot me an email at <span>info.sablijr@gmail.com</span>.

@@ -4,20 +4,14 @@
 }
 
 .heroTitle {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 5.42rem;
-  letter-spacing: 2px;
-  font-weight: 600;
-  width: 80%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 6.42rem;
+  font-weight: 900;
+  width: 85%;
   margin: .3rem auto;
   text-align: right;
   line-height: 1.2;
   color: #fb9f3b;
-}
-
-.heroTitle span {
-  font-family: "Instrument Serif", serif;
-  font-style: italic;
 }
 
 .titleDiv1 {
@@ -51,14 +45,26 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .heroTitle {
+      font-size: 4.8rem;
+      width: 70%;
+      margin: .3rem auto;
+    }
+
   @media screen and (max-width: 800px) {
+    .heroTitle {
+      font-size: 4.2rem;
+      width: 80%;
+    }
+
     @media screen and (max-width: 600px) {
       .heroSection {
         margin: 1.42rem auto 2.42rem;
         text-align: center;
       }
+
      .heroTitle {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
         width: 90%;
         margin: .3rem auto;
         text-align: center;
