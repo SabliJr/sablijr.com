@@ -5,22 +5,22 @@
   position: relative;
 }
 
-.videoEl {
+/* .videoEl {
   width: 70%;
   border-radius: 1.42rem;
   height: 30rem;
   border: transparent;
-}
+} */
 
-.videoWrapper {
+/* .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* Aspect ratio of 16:9 */
+  padding-bottom: 56.25%;  Aspect ratio of 16:9 
   height: 0;
   overflow: hidden;
-  width: 100%; /* Makes the wrapper take the full width of its container */
-}
+  width: 100%;  Makes the wrapper take the full width of its container 
+} */
 
-.videoWrapper .videoEl {
+/* .videoWrapper .videoEl {
   position: absolute;
   top: 0;
   left: 0;
@@ -28,7 +28,26 @@
   height: 100%;
   border-radius: 1.42rem;
   border: transparent;
-}
+} */
+
+  .videoWrapper {
+    position: relative;
+    width: 70%; /* Maximum width of the video wrapper */
+    padding-top: 38.85%; /* Aspect ratio of 16:9 (100% / 2.35 for a rectangular ratio) */
+    margin: 0 auto; /* Center the video wrapper */
+    overflow: hidden;
+    border-radius: 1.42rem; /* Add border-radius to the wrapper */
+  }
+
+  .videoWrapper .videoEl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.42rem;
+    border: transparent;
+  }
 
 .aboutText {
   font-size: 1.6rem;
