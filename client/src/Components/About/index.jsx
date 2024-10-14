@@ -19,10 +19,12 @@ import Photoshop from "../../Assets/Photoshop.png";
 import Vim from "../../Assets/Vim.png";
 import Express from "../../Assets/Express.png";
 
+import Me from "../../Assets/Me.jpg";
+
 const Index = () => {
   return (
     <section className='aboutSection'>
-      <div className='videoWrapper'>
+      {/* <div className='videoWrapper'>
         <iframe
           className='videoEl'
           src='https://www.youtube-nocookie.com/embed/YHDUbLT4nkk?si=hRpf7C730_Kyyh3W'
@@ -30,13 +32,24 @@ const Index = () => {
           frameborder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowfullscreen></iframe>
+      </div> */}
+      <div className='_me_container'>
+        <img src={Me} alt='' className='_me' />
       </div>
       <p className='aboutText'>
+        I'm Sabli Junior! a Software Engineer, an Indie Hacker, and a student at
+        42Paris. I’m passionate about turning ideas into products, solving
+        real-world problems with code, and building stuff from the ground up.
+        With a strong foundation in software development and a drive for
+        innovation, I'm always exploring new challenges—whether it's creating
+        solutions, learning new skills, or sharing my journey.
+      </p>
+      {/* <p className='aboutText'>
         Hi there, I'm Sabli Junior, a <span>software engineering</span>, student
         at <span>42Paris </span> and a <span>content creator</span>. This video
         is a little bit about me if you've got a minute. It is literally{" "}
         <span>one minute</span> long! 😁
-      </p>
+      </p> */}
       <div className='skillsWrapper'>
         <div className='skillsDiv'>
           <h3 className='skillsTitle'>What I'm good at:</h3>

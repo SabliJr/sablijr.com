@@ -49,12 +49,23 @@
     border: transparent;
   }
 
+  ._me_container {
+    max-width: 70%;
+    margin: 1rem auto;
+    border-radius: .8rem;
+  }
+
+  ._me {
+    width: 100%;
+    border-radius: .8rem;
+  }
+
 .aboutText {
   font-size: 1.6rem;
   font-family: Inter, sans-serif;
   font-weight: 400;
   margin: 2rem auto;
-  width: 75%;
+  width: 85%;
   line-height: 1.4;
   color: #003049;
 }
@@ -136,6 +147,10 @@
         height: 13rem;
         border: transparent;
       } */
+
+      ._me_container {
+        width: 100%;
+      }
 
       .skillsTitle {
         font-size: 1.8rem;

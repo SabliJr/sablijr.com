@@ -3,7 +3,7 @@ import "./work.css";
 
 import NewArrow from "./svgComp";
 import Wishties from "../../Assets/_wishties.jpg";
-import Sponsorwave from "../../Assets/sponsorwave.png";
+import Sponsorwave from "../../Assets/Sponsorwave.png";
 
 const Index = () => {
   return (
@@ -15,18 +15,26 @@ const Index = () => {
       </h3>
       <div className='workDiv'>
         <div className='img_div1'>
+          <h3>Wishties...</h3>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
+            Wishties is a platform designed to help creators receive gifts from
+            their fans. By allowing fans to select and send thoughtful gifts
+            directly, it fosters a deeper connection between creators and their
+            supporters. Similar to Throne, Wishties provides a simple and
+            engaging way for fans to show appreciation and support, enhancing
+            the creator-fan relationship.
+            <br />
+            <br />
+            However, please note that Wishties is now closed and no longer in
+            operation.
           </p>
+          <h6 className='_stack'>
+            Stacks: NodeJs/Express, Typescript, PostgreSql, React/TS, CSS, AWS
+          </h6>
+          <span className='_btns_span'>
+            <button className='_workBtns'>Repo</button>
+            <button className='_workBtns'>Visit Live</button>
+          </span>
         </div>
         <div className='img_div2'>
           <img src={Wishties} alt='' className='_wishties' />
@@ -39,18 +47,24 @@ const Index = () => {
           />
         </div>
         <div className='img_div4'>
+          <h3>Sponsorwave...</h3>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
+            Sponsorwave is a platform designed to streamline sponsorship and
+            brand partnerships for content creators. It allows users to discover
+            potential sponsors, track their sponsorships, and analyze engagement
+            metrics. With features like tailored recommendations, a popularity
+            index, and activity monitoring, Sponsorwave helps creators manage
+            their sponsorships efficiently and maximize their partnership
+            opportunities.
+            <br />
+            <br />
+            Note: Sponsorwave is currently under development and the repo is
+            private.
           </p>
+          <h6 className='_stack'>
+            Stacks: NodeJs/Express, Typescript, PostgreSql, React/TS, CSS
+          </h6>
+          <button className='_workBtns'>Visit Live</button>
         </div>
       </div>
     </section>
