@@ -191,6 +191,14 @@
         margin: 7rem auto 0;
       }
 
+      ._stack {
+        font-size: .8rem;
+      }
+
+      .img_div1 h3, .img_div4 h3 {
+        font-size: 1.8rem;
+      }
+
     }
   }
 }

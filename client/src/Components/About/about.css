@@ -132,8 +132,8 @@
 
     @media screen and (max-width: 600px) {
       .aboutText {
-        font-size: 1.2rem;
-        width: 93%;
+        font-size: 1rem;
+        width: 99%;
         line-height: 1.2;
       }
 
