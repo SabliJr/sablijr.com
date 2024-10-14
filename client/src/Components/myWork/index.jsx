@@ -3,7 +3,7 @@ import "./work.css";
 
 import NewArrow from "./svgComp";
 import Wishties from "../../Assets/_wishties.jpg";
-import Sponsorwave from "../../Assets/Sponsorwave.png";
+import Sponsorwave from "../../Assets/Sponsorwave.jpg";
 
 const Index = () => {
   return (
@@ -32,8 +32,16 @@ const Index = () => {
             Stacks: NodeJs/Express, Typescript, PostgreSql, React/TS, CSS, AWS
           </h6>
           <span className='_btns_span'>
-            <button className='_workBtns'>Repo</button>
-            <button className='_workBtns'>Visit Live</button>
+            <button className='_workBtns'>
+              <a href='https://github.com/SabliJr/Wishties' target='#blank'>
+                Repo
+              </a>
+            </button>
+            <button className='_workBtns'>
+              <a href='https://www.wishties.com/' target='#blank'>
+                Visit Live
+              </a>
+            </button>
           </span>
         </div>
         <div className='img_div2'>
@@ -64,7 +72,11 @@ const Index = () => {
           <h6 className='_stack'>
             Stacks: NodeJs/Express, Typescript, PostgreSql, React/TS, CSS
           </h6>
-          <button className='_workBtns'>Visit Live</button>
+          <button className='_workBtns'>
+            <a href='https://www.sponsorwave.com/' target='#blank'>
+              Visit Live
+            </a>
+          </button>
         </div>
       </div>
     </section>

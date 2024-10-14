@@ -114,14 +114,15 @@
 ._wishties,
 .sponsor_wave_img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 1rem;
   box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  object-fit: cover;
 }
 
-.sponsor_wave_img {
+/* .sponsor_wave_img {
   height: 28rem;
-}
+} */
 
 
 @media screen and (max-width: 1024px) {
@@ -137,13 +138,12 @@
       top: 4.8rem;
     }
 
-  @media screen and (max-width: 800px) {
-
-    #Layer_3 {
-      left: 25%;
+    .workDiv {
+      width: 80%;
+      margin: 5rem auto;
     }
 
-    .img_div1 {
+       .img_div1 {
       grid-column: 1/6;
     }
 
@@ -160,10 +160,13 @@
       grid-column: 1/6;
     }
 
-    .workDiv {
-      width: 80%;
-      margin: 5rem auto;
+  @media screen and (max-width: 800px) {
+
+    #Layer_3 {
+      left: 25%;
     }
+
+    
     @media screen and (max-width: 600px) {
       .workTitle {
         font-size: 3rem;
