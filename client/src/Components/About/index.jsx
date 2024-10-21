@@ -37,15 +37,15 @@ const Index = () => {
         <img src={Me} alt='' className='_me' />
       </div>
       <p className='aboutText'>
-        I'm Sabli Junior! a Software Engineer, an Indie Hacker, and a student at
-        42Paris. I’m passionate about turning ideas into products, solving
+        I'm Sabli Junior! a Software Engineer, Tech Entrepreneur and a student
+        at 42Paris. I’m passionate about turning ideas into products, solving
         real-world problems with code, and building stuff from the ground up.
         <br />
         <br />
         With a strong foundation in software development and a drive for
         innovation, I'm always exploring new challenges—whether it's creating
-        solutions, learning new skills, or sharing my journey. Solo founder
-        building what I wish existed—always learning, always shipping.
+        solutions, learning new skills, or sharing my journey—always learning,
+        always shipping.
       </p>
       {/* <p className='aboutText'>
         Hi there, I'm Sabli Junior, a <span>software engineering</span>, student
