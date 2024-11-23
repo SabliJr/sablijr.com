@@ -1,14 +1,12 @@
 import React from "react";
 import "./work.css";
 
-import NewArrow from "./svgComp";
 import Wishties from "../../Assets/_wishties.jpg";
 import Sponsorwave from "../../Assets/Sponsorwave.jpg";
 
 const Index = () => {
   return (
     <section className='workSection'>
-      <NewArrow />
       <h3 className='workTitle'>
         <span>What I have done so far,</span> <br />
         my work.

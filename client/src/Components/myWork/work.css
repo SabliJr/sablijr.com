@@ -62,7 +62,6 @@
 
 ._stack {
   font-size: 1rem;
-  /* font-family:"Yanone Kaffeesatz", sans-serif; */
   font-family: "Inter Tight", sans-serif;
   margin: 1.3rem 0;
   letter-spacing: .3px;
@@ -119,11 +118,6 @@
   box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
   object-fit: cover;
 }
-
-/* .sponsor_wave_img {
-  height: 28rem;
-} */
-
 
 @media screen and (max-width: 1024px) {
    .workTitle {
