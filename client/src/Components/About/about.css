@@ -5,50 +5,6 @@
   position: relative;
 }
 
-/* .videoEl {
-  width: 70%;
-  border-radius: 1.42rem;
-  height: 30rem;
-  border: transparent;
-} */
-
-/* .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;  Aspect ratio of 16:9 
-  height: 0;
-  overflow: hidden;
-  width: 100%;  Makes the wrapper take the full width of its container 
-} */
-
-/* .videoWrapper .videoEl {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 1.42rem;
-  border: transparent;
-} */
-
-  .videoWrapper {
-    position: relative;
-    width: 70%; /* Maximum width of the video wrapper */
-    padding-top: 38.85%; /* Aspect ratio of 16:9 (100% / 2.35 for a rectangular ratio) */
-    margin: 0 auto; /* Center the video wrapper */
-    overflow: hidden;
-    border-radius: 1.42rem; /* Add border-radius to the wrapper */
-  }
-
-  .videoWrapper .videoEl {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 1.42rem;
-    border: transparent;
-  }
-
   ._me_container {
     max-width: 70%;
     margin: 1rem auto;
@@ -56,7 +12,7 @@
   }
 
   ._me {
-    width: 100%;
+    width: 80%;
     border-radius: .8rem;
   }
 
@@ -77,6 +33,7 @@
 .skillsDiv {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
   text-align: left;
   margin: 3rem auto;
@@ -88,7 +45,8 @@
 }
 
 .skillsWrapper {
-  margin: 5rem auto;
+  margin: 1rem auto;
+  width: 90%;
   background-color: #383838;
   padding: .8rem 2.5rem;
   border-radius: 1.8rem;
@@ -104,7 +62,10 @@
   display: flex;
   gap: 1.3rem;
   flex-wrap: wrap;
-  margin: 1.3rem 0;
+  margin: 1.6rem auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
 }
 
 .skillsLogos img {
@@ -117,6 +78,17 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
+._stack_section {
+  text-align: center;
+  margin: 6rem auto;
+}
+
+._tech_stack {
+  font-size: 4.5rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .12px;
+}
 
 @media screen and (max-width: 1024px) {
   @media screen and (max-width: 800px) {
@@ -140,13 +112,6 @@
       .aboutText span {
         font-weight: 500;
       }
-
-      /* .videoEl {
-        width: 96%;
-        border-radius: .8rem;
-        height: 13rem;
-        border: transparent;
-      } */
 
       ._me_container {
         max-width: 100%;
@@ -176,9 +141,9 @@
       }
 
    .videoWrapper {
-    width: 95%; /* Maximum width of the video wrapper */
-    padding-top: 55%; /* Aspect ratio of 16:9 (100% / 2.35 for a rectangular ratio) */
-    border-radius: .5rem; /* Add border-radius to the wrapper */
+    width: 95%; 
+    padding-top: 55%; 
+    border-radius: .5rem; 
   }
 
   .videoWrapper .videoEl {
