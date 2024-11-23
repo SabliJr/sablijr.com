@@ -11,7 +11,6 @@
   margin: 0.3rem auto;
   text-align: center;
   line-height: 1;
-  /* color: #fb9f3b; */
   text-transform: uppercase;
   letter-spacing: -0.2px;
 }
@@ -28,7 +27,6 @@
   font-family: Inter, sans-serif;
   color: #1d3a58;
   font-weight: 500;
-  /* text-transform: uppercase; */
 }
 
 #Layer_1 {

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className='Header'>
       <img src={Logo} alt='' className='logo' />
-      <div className='navLinksDiv'>
+      {/* <div className='navLinksDiv'>
         <ScrollLink
           to='Header'
           spy={true}
@@ -45,7 +45,7 @@ const Header = () => {
           duration={500}>
           Contact
         </ScrollLink>
-      </div>
+      </div> */}
     </header>
   );
 };
