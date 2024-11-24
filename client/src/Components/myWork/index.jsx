@@ -16,8 +16,8 @@ const Index = () => {
         <div className='_project_container'>
           <img src={Sponsorwave} alt='' className='_project_logo _extrac' />
           <p>
-            Helping Creators Make a Living Doing what they love while enabling
-            companies to reach their users!
+            Sponsorwave aims to help creators manage their sponsorships
+            efficiently and maximize their partnership opportunities.
           </p>
           <button>
             <a target='#blank' href='https://www.sponsorwave.com/'>
