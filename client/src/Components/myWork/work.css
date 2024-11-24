@@ -169,7 +169,8 @@
   color: #2d3e51;
 }
 
-._project_container button {
+._project_container button,
+#_discontinued {
   background-color: #ebf5ff;
   border-radius: 0.5rem;
   border: transparent;
@@ -177,7 +178,8 @@
   letter-spacing: 0.15px;
 }
 
-._project_container button a {
+._project_container button a,
+#_discontinued {
   display: flex;
   gap: 0.8rem;
   align-items: center;
@@ -188,9 +190,6 @@
 
 #_discontinued {
   background-color: hsla(0, 48%, 88%, 0.693);
-}
-
-#_discontinued a {
   color: red;
 }
 
