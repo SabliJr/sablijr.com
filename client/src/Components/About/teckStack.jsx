@@ -13,8 +13,8 @@ import JsImg from "../../Assets/JS.png";
 import AWSImg from "../../Assets/AWS.png";
 import Docker from "../../Assets/Docker.png";
 
-import GOLang from "../../Assets/Go_Logo_Blue.svg.png";
-import Python from "../../Assets/av0y5r3i9.webp";
+import GOLang from "../../Assets/GoLang.png";
+import Python from "../../Assets/Python.webp";
 import Linux from "../../Assets/Linux.png";
 import Vim from "../../Assets/Vim.png";
 import Express from "../../Assets/Express.png";

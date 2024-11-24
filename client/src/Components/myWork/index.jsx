@@ -3,7 +3,7 @@ import "./work.css";
 
 import Wishties from "../../Assets/_wishties.png";
 import Sponsorwave from "../../Assets/_sponsorwave.png";
-import ChatFolderz from "../../Assets/_chatfolerz.png";
+import ChatFolderz from "../../Assets/_chatfolderz.png";
 
 const Index = () => {
   return (
