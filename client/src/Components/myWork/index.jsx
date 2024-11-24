@@ -7,10 +7,7 @@ import Sponsorwave from "../../Assets/Sponsorwave.jpg";
 const Index = () => {
   return (
     <section className='workSection'>
-      <h3 className='workTitle'>
-        <span>What I have done so far,</span> <br />
-        my work.
-      </h3>
+      <h3 className='workTitle'>My Startup Projects.</h3>
       <div className='workDiv'>
         <div className='img_div1'>
           <h3>Wishties...</h3>

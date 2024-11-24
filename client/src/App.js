@@ -12,8 +12,8 @@ const App = () => {
     <div className='App'>
       <Header />
       <Hero />
-      {/* <LaWork /> */}
       <About />
+      <LaWork />
       <TeckStack />
       <Contact />
     </div>
