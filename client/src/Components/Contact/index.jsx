@@ -15,7 +15,6 @@ const Index = () => {
         Shoot me an email at <span>info.sablijr@gmail.com</span>.
       </p>
       <div className='SMDiv'>
-        {/* <h6>Find me on:</h6> */}
         <div className='linkIcons'>
           <a target='#blank' href='https://twitter.com/SabLiJr'>
             <FaSquareXTwitter className='SMIcons' />
