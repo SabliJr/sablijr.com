@@ -8,7 +8,7 @@ const LeRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/portifolio' element={<Home />} />
+        <Route path='/portfolio' element={<Home />} />
         <Route path='/links' element={<Links />} />
       </Routes>
     </Router>
