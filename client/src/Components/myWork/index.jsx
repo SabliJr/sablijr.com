@@ -4,6 +4,7 @@ import "./work.css";
 import Wishties from "../../Assets/_wishties.png";
 import Sponsorwave from "../../Assets/_sponsorwave.png";
 import ChatFolderz from "../../Assets/_chatfolderz.png";
+import Optamora from "../../Assets/Optamora.png";
 
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { LuPauseCircle } from "react-icons/lu";
@@ -22,6 +23,18 @@ const Index = () => {
           <button>
             <a target='#blank' href='https://www.sponsorwave.com/'>
               <HiOutlineExternalLink /> sponsorwave.com
+            </a>
+          </button>
+        </div>
+        <div className='_project_container'>
+          <img src={Optamora} alt='' className='_project_logo' />
+          <p>
+            Organize your AI conversations with folders, search, bookmark, and
+            manage prompts, prompt library and more... All in one extension.
+          </p>
+          <button>
+            <a target='#blank' href='https://optamora.com/'>
+              <HiOutlineExternalLink /> optamora.com
             </a>
           </button>
         </div>
