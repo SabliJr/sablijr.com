@@ -17,8 +17,8 @@ const Index = () => {
         <div className='_project_container'>
           <img src={Sponsorwave} alt='' className='_project_logo _extrac' />
           <p>
-            Sponsorwave aims to help creators manage their sponsorships
-            efficiently and maximize their partnership opportunities.
+            Find sponsors that perfectly match your niche and appeal to your
+            subscribers, enhancing your content while boosting your income.
           </p>
           <button>
             <a target='#blank' href='https://www.sponsorwave.com/'>
@@ -29,8 +29,8 @@ const Index = () => {
         <div className='_project_container'>
           <img src={Optamora} alt='' className='_project_logo' />
           <p>
-            Organize your AI conversations with folders, search, bookmark, and
-            manage prompts, prompt library and more... All in one extension.
+            Optimize your YouTube titles and thumbnails for maximum performance.
+            Discover what works with data-driven A/B testing.
           </p>
           <button>
             <a target='#blank' href='https://optamora.com/'>

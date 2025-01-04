@@ -1,10 +1,11 @@
 import "./App.css";
 
-import LeRoutes from "./Routes";
+import Home from "./Pages/home";
+
 const App = () => {
   return (
     <div className='App'>
-      <LeRoutes />
+      <Home />
     </div>
   );
 };

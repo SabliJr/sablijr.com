@@ -17,7 +17,7 @@ const Index = () => {
         <br />
         I'm not just a builder; I'm also a digital creator, making videos that
         clarify my thoughts, reinforce what I've learned, and hopefully teach
-        others what I know.
+        others what I know—Always learning, always shipping.
       </p>
     </section>
   );
