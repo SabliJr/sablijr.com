@@ -13,7 +13,7 @@ import JsImg from "../../Assets/JS.png";
 import AWSImg from "../../Assets/AWS.png";
 import Docker from "../../Assets/Docker.png";
 
-import Python from "../../Assets/Python.webp";
+import GoLang from "../../Assets/Golang.png";
 import Linux from "../../Assets/Linux.png";
 import Vim from "../../Assets/Vim.png";
 import Express from "../../Assets/Express.png";
@@ -47,7 +47,7 @@ const TeckStack = () => {
             <img src={Vim} alt='' />
             <img src={cLang} alt='' />
             <img src={Linux} alt='' />
-            <img src={Python} alt='' />
+            <img src={GoLang} alt='' />
           </div>
         </div>
       </div>
