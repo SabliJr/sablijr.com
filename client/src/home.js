@@ -1,14 +1,14 @@
 import React from "react";
-import "../sketchy.css";
+import "./sketchy.css";
 import { BsGithub } from "react-icons/bs";
 import { FaSquareXTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { RiAppleFill, RiGithubFill } from "react-icons/ri";
 
 // Assets
-import Me from "../Assets/me.png";
-import Wishties from "../Assets/_wishties.png";
-import ChatFolderz from "../Assets/Facia.png";
+import Me from "./Assets/me.png";
+import Wishties from "./Assets/_wishties.png";
+import Facia from "./Assets/Facia.png";
 
 const Home = () => {
   return (
@@ -24,8 +24,6 @@ const Home = () => {
         </div>
       </header>
 
-      {/* Main Grid */}
-      {/* Left Column: About, Education, Contact */}
       <div className="left-column">
 
         {/* About Me */}
@@ -72,7 +70,7 @@ const Home = () => {
 
           {/* Facia */}
           <div className="job-item" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left' }}>
-            <img src={ChatFolderz} alt="logo" style={{ width: '130px', objectFit: 'contain' }} />
+            <img src={Facia} alt="logo" style={{ width: '130px', objectFit: 'contain' }} />
             <p className="job-title">FACIA | Founder</p>
 
             <p className="block-text" style={{ marginBottom: '10px' }}>
@@ -90,7 +88,7 @@ const Home = () => {
 
           {/* Wishties (Discontinued) */}
           <div className="job-item" style={{ opacity: 0.7, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left' }}>
-            <img src={Wishties} alt="logo" style={{ width: '120px', objectFit: 'contain', marginBottom: '10px' }} />
+            <img src={Wishties} alt="logo" style={{ width: '130px', objectFit: 'contain', marginBottom: '6px' }} />
             <p className="job-title">WISHTIES | Discontinued</p>
 
             <p className="block-text" style={{ marginBottom: '10px' }}>

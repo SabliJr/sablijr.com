@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Home from "./Pages/home";
+import Home from "./home";
 
 const App = () => {
   return (
