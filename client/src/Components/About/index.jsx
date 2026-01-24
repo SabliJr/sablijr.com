@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-import Me from "../../Assets/Me.jpg";
+import Me from "../../Assets/_me.jpg";
 
 const Index = () => {
   return (
