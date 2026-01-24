@@ -1,11 +1,11 @@
 import "./App.css";
 
-import Home from "./home";
+import Routes from "./Routes";
 
 const App = () => {
   return (
     <div className='App'>
-      <Home />
+      <Routes />
     </div>
   );
 };
