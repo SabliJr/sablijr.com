@@ -77,7 +77,7 @@ const Home = () => {
               Facia is an AI-powered skincare app that scans your face and builds a simple, personalized routine based on your skin needs.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <a target='_blank' rel="noreferrer" href='https://apps.apple.com/us/app/facia-personalized-skincare/id6753816755' className="project-link">
+              <a target='_blank' rel="noreferrer" href='https://apps.apple.com/fr/app/facia-personalized-skincare/id6753816755' className="project-link">
                 <RiAppleFill style={{ marginRight: '5px' }} /> App Store
               </a>
               <a target='_blank' rel="noreferrer" href='https://facia.app/' className="project-link">
